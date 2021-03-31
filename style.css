@@ -1,0 +1,65 @@
+* {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: azure;
+}
+
+#header {
+    max-width: 666px;
+    margin: 0px auto;
+}
+
+#content {
+    max-width: 666px;
+    margin: 0px auto;
+}
+
+#footer {
+    max-width: 666px;
+    margin: 0px auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(32, 47, 75);
+    font-family: 'Roboto Mono', monospace;
+  }
+
+li {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+}
+
+li a {
+    display: block;
+    padding: 16px 8px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: black;
+  }
+
+h1 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: x-large;
+}
+
+h2 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: large;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: medium;
+}
